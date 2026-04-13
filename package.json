@@ -1,0 +1,19 @@
+{
+  "name": "vector2d",
+  "version": "1.0.0",
+  "description": "Matemática de vetores 2D",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["vector", "2d", "math", "geometry"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
